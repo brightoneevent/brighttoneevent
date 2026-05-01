@@ -1,0 +1,399 @@
+{
+    "brand": {
+        "name": "BrightTone",
+        "tagline": "Event"
+    },
+    "nav": {
+        "links": [{
+                "label": "Home",
+                "href": "index.html"
+            },
+            {
+                "label": "Services",
+                "href": "services.html"
+            },
+            {
+                "label": "Portfolio",
+                "href": "portfolio.html"
+            },
+            {
+                "label": "About",
+                "href": "about.html"
+            },
+            {
+                "label": "Contact",
+                "href": "contact.html"
+            }
+        ],
+        "cta": {
+            "label": "Book Now",
+            "href": "contact.html"
+        }
+    },
+    "home": {
+        "hero": {
+
+            "headline": "Sound - lighting",
+            "headline_accent": "LED screens, Stage.",
+            "subheadline": "We design, install, and operate world-class event experiences for concerts, weddings, and corporate events across Rwanda and beyond.",
+            "cta_primary": {
+                "label": "Explore Services",
+                "href": "services.html"
+            },
+            "cta_secondary": {
+                "label": "See Our Work",
+                "href": "portfolio.html"
+            }
+        },
+        "stats": [{
+                "value": "60+",
+                "label": "Events Delivered"
+            },
+
+            {
+                "value": "24/7",
+                "label": "Support Available"
+            },
+
+            {
+                "value": "80+",
+                "label": "Premium Equipment Units"
+            }, {
+                "value": "30",
+                "label": "Member Crew"
+            }
+        ],
+        "service_cards": [{
+                "icon": "concert",
+                "image": "img/1.jpeg",
+                "title": "Concerts & Festivals",
+                "body": "Line arrays, subwoofer stacks, monitor systems, and full stage management for live music at any scale.",
+                "href": "services.html#concerts"
+            },
+            {
+                "icon": "wedding",
+                "image": "img/2.jpeg",
+                "title": "Weddings & Celebrations",
+                "body": "Crystal-clear ceremony audio, elegant background music, and powerful dance-floor systems for your perfect day.",
+                "href": "services.html#weddings"
+            },
+            {
+                "icon": "corporate",
+                "image": "img/5.jpeg",
+                "title": "Corporate Events",
+                "body": "Conference PA systems, lavalier microphones, presentation audio, and broadcast-grade reliability.",
+                "href": "services.html#corporate"
+            }
+        ],
+        "testimonials": [{
+                "quote": "BrightTone Event delivered an outstanding technical experience for our end-of-year gala. The sound clarity was exceptional, and the lighting design elevated the entire atmosphere of the event. Their team demonstrated professionalism, punctuality, and flexibility from setup to execution. We highly recommend BrightTone Event for corporate and high-profile functions.",
+                "name": "Alice",
+                "role": "Marriott Kigali"
+            },
+            {
+                "quote": "BrightTone Event made our wedding unforgettable. The sound was so clean and powerful that every word spoken and every note of music felt alive. The lighting design was simply magical — it gave the entire venue a romantic glow that took everyone’s breath away. Their team handled everything with grace and professionalism. Thank you for making our special day feel like a dream.",
+                "name": "Diane",
+                "role": "Bride – Jalia Wedding Venue"
+            },
+            {
+                "quote": "BrightTone Event delivered a truly outstanding technical experience during the Tour du Rwanda 2025. The sound coverage across the open-air venue was crystal clear, and their use of the latest imported technology elevated the event to international standards. We received compliments from guests, and sponsors. Highly recommended.",
+                "name": "Coordinator",
+                "role": "Comm Agency @BRD,Tour du Rwanda 2025"
+            }
+        ],
+        "cta_band": {
+            "title": "Ready to Elevate Your Event?",
+            "body": "Tell us about your vision and we'll design the perfect sound system for it.",
+            "cta": {
+                "label": "Get a Free Quote",
+                "href": "contact.html"
+            }
+        }
+    },
+    "services": {
+        "hero": {
+            "label": "Our Services"
+        },
+        "items": [{
+                "id": "concerts",
+                "icon": "concert",
+                "image": "img/3.jpeg",
+                "title": "Concerts & Festivals",
+                "body": "We deploy professional line-array systems, high-output subwoofers, stage monitors, and front-of-house mixing desks.",
+                "features": [
+                    "Concert-grade line-array sound systems & subwoofer stacks",
+                    "Modular stages, trussing & roofing structures",
+                    "Intelligent lighting systems & DMX-programmed shows",
+                    "LED screens & full visual production",
+                    "Campaign trucks & mobile activation setups",
+                    "Full technical direction, crew & show control"
+                ]
+            },
+
+
+            {
+                "id": "weddings",
+                "icon": "wedding",
+                "image": "img/6.jpeg",
+                "title": "Weddings & Celebrations",
+                "body": "Elegant, unobtrusive systems that sound spectacular without dominating your décor.",
+                "features": [
+                    "Premium sound systems & wireless microphones",
+                    "DJ booth integration & reception audio zoning",
+                    "Ambient lighting & synchronized visual themes",
+                    "LED screens & live visual displays",
+                    "Cold sparks, low fog, bubbles & laser effects",
+                    "Dedicated technician & seamless event execution"
+                ]
+            },
+
+
+            {
+                "id": "corporate",
+                "icon": "corporate",
+                "image": "img/5.jpeg",
+                "title": "Corporate Events",
+                "body": "Broadcast-grade reliability with lavalier mics, panel systems, and live-stream integration.",
+                "features": [
+                    "Conference-grade PA systems & wireless microphones",
+                    "Panel setups & multi-speaker management",
+                    "Hybrid event & live-stream integration",
+                    "LED screens & presentation systems",
+                    "Technical direction, rehearsal & full crew support",
+                    "Redundant systems for broadcast-level reliability"
+                ]
+            },
+
+            {
+                "id": "corporate",
+                "icon": "Permanent AV Installations",
+                "image": "img/5.jpeg",
+                "title": "Permanent AV Installations",
+                "body": "",
+                "features": [
+                    "Conference-grade PA systems & wireless microphones",
+                    "Panel setups & multi-speaker management",
+                    "Hybrid event & live-stream integration",
+                    "LED screens & presentation systems",
+                    "Technical direction, rehearsal & full crew support",
+                    "Redundant systems for broadcast-level reliability"
+                ]
+            },
+            {
+                "id": "church",
+                "icon": "Church & Worship Events",
+                "image": "img/5.jpeg",
+                "title": "Church & Worship Events",
+                "body": "",
+                "features": [
+                    "Full sound system setups for crusades & services",
+                    "Choir & band monitoring systems",
+                    "Outdoor worship event production",
+                    "Live-streaming for churches",
+                    "Stage lighting for worship atmosphere"
+                ]
+            },
+            {
+                "id": "roadshows",
+                "icon": "Roadshows & Brand Activations",
+                "image": "img/5.jpeg",
+                "title": "Roadshows & Brand Activations",
+                "body": "",
+                "features": [
+                    "Mobile stage trucks",
+                    "Outdoor sound & lighting setups",
+                    "LED screens for advertising",
+                    "Public address systems for campaigns",
+                    "Multi-location rapid deployment setups"
+                ]
+            },
+            {
+                "id": "sports",
+                "icon": "Sports & Public Events",
+                "image": "img/5.jpeg",
+                "title": "Sports & Public Events",
+                "body": "",
+                "features": [
+                    "Outdoor sound systems",
+                    "Race events (like Tour du Rwanda style setups)",
+                    "Public viewing screens",
+                    "Crowd control audio systems",
+                    "Outdoor large-scale announcements"
+                ]
+            },
+            {
+                "id": "exhibitions",
+                "icon": "Exhibitions & Trade Shows",
+                "image": "img/5.jpeg",
+                "title": "Exhibitions & Trade Shows",
+                "body": "",
+                "features": [
+                    "Booth sound & display systems",
+                    "LED display walls for brands",
+                    "Interactive screens",
+                    "Lighting for exhibition stands",
+                    "Multi-booth AV coordination"
+                ]
+            },
+            {
+                "id": "private",
+                "icon": "Private Parties & VIP Experiences",
+                "image": "img/5.jpeg",
+                "title": "Private Parties & VIP Experiences",
+                "body": "",
+                "features": [
+                    "Birthday parties (high-end setups)",
+                    "VIP lounge sound & lighting",
+                    "Themed party lighting & effects",
+                    "DJ setups & dancefloor production",
+                    "Exclusive event atmosphere design"
+                ]
+            }
+
+
+
+
+
+        ],
+
+
+
+
+        "equipment_brands": [
+            "d&b audiotechnik",
+            "L-Acoustics",
+            "Shure",
+            "Sennheiser",
+            "Allen & Heath",
+            "DiGiCo",
+            "Crown",
+            "QSC"
+        ]
+    },
+
+
+
+
+
+    "portfolio": {
+        "items": [{
+                "title": "Kigali Jazz Festival",
+                "category": "Concerts",
+                "desc": "Full outdoor line-array for 3,000 attendees.",
+                "image": "img/1.jpeg",
+                "instagram": "https://www.instagram.com/p/DXvsiptMmXc/",
+                "year": "2024"
+            },
+            {
+                "title": "Amira & David Wedding",
+                "category": "Weddings",
+                "desc": "Elegant ceremony with ambient sound zones.",
+                "image": "img/2.jpeg",
+                "instagram": "https://www.instagram.com/p/DKKBKo_MnhP/",
+                "year": "2024"
+            },
+            {
+                "title": "Rwanda Tech Summit",
+                "category": "Corporate",
+                "desc": "800-delegate conference with live-stream integration.",
+                "image": "img/5.jpeg",
+                "instagram": "https://www.instagram.com/p/DUeYNMfCIfJ/",
+                "year": "2024"
+            },
+            {
+                "title": "Nyamata Music Night",
+                "category": "Concerts",
+                "desc": "Intimate open-air concert featuring local artists.",
+                "image": "img/3.jpeg",
+                "instagram": "https://www.instagram.com/p/DLqP-XrseHb/",
+                "year": "2023"
+            },
+            {
+                "title": "EcoBank Annual Gala",
+                "category": "Corporate",
+                "desc": "Award ceremony with wireless mic system.",
+                "image": "img/5.jpeg",
+                "instagram": "https://www.instagram.com/p/DH_NvOwsx-N/",
+                "year": "2023"
+            },
+            {
+                "title": "Sophie & Eric Wedding",
+                "category": "Weddings",
+                "desc": "Church ceremony to hotel ballroom — seamless transition.",
+                "image": "img/6.jpeg",
+                "instagram": "https://www.instagram.com/p/DFDnF6IsxHo/",
+                "year": "2023"
+            }
+        ]
+    },
+
+
+
+
+
+    "about": {
+        "story": [
+            "We are a specialized collective of audio engineers, lighting designers, and event technicians. Moving beyond standard rental houses, BrightTone Event operates as a comprehensive production partner. Our inventory is strictly curated to include only industry-leading Equipment Brands, ensuring that whether we are reinforcing a Corporate keynote or illuminating a high-profile gala, the fidelity and aesthetic impact are absolute."
+        ],
+        "values": [{
+                "icon": "target",
+                "title": "Precision",
+                "body": "Every decibel matters. We tune systems meticulously for each venue's unique acoustics."
+            },
+            {
+                "icon": "shield",
+                "title": "Reliability",
+                "body": "Backup systems, redundant signal paths, and 24/7 support mean your event never stops."
+            },
+            {
+                "icon": "zap",
+                "title": "Passion",
+                "body": "We love live sound. That energy shows in everything we deliver."
+            },
+            {
+                "icon": "cpu",
+                "title": "Innovation",
+                "body": "We continuously invest in cutting-edge equipment and stay ahead of industry trends."
+            }
+        ]
+
+
+    },
+
+
+    "contact": {
+        "phones": [{
+                "number": "0783458808",
+                "display": "0783 458 808"
+            },
+            {
+                "number": "0785065400",
+                "display": "0785 065 400"
+            },
+            {
+                "number": "0780876223",
+                "display": "0780 876 223"
+            }
+        ],
+        "phone": "+250783458808",
+        "email": "hello@brighttone.rw",
+        "location": "Kigali, Rwanda",
+        "instagram": "https://www.instagram.com/brighttone_event/",
+        "whatsapp": "https://wa.me/250783458808",
+        "event_types": [
+            "Concert / Festival",
+            "Wedding / Celebration",
+            "Corporate Event",
+            "Other"
+        ],
+        "success_message": "Thank you! We'll be in touch within 24 hours."
+    },
+    "footer": {
+        "tagline": "Professional sound systems for every occasion.",
+        "copyright": "© 2026 BrightTone Event. All rights reserved. Developed by Innovatoor.",
+        "instagram": "https://www.instagram.com/brighttone_event/",
+        "phone": "+250783458808"
+
+
+    }
+}
