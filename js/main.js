@@ -92,14 +92,18 @@ function buildFooter() {
     document.querySelectorAll('.footer-tagline').forEach(el => el.textContent = f.tagline);
     document.querySelectorAll('.footer-copy').forEach(el => el.textContent = f.copyright);
 
+    const TIKTOK_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>`;
+    const LINKEDIN_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="4"/><line x1="8" y1="11" x2="8" y2="16"/><line x1="8" y1="8" x2="8" y2="8.01"/><path d="M12 16v-5m4 5v-3a2 2 0 0 0-4 0"/></svg>`;
+
     const socials = [
         { icon: 'instagram', href: f.instagram, label: 'Instagram' },
-
+        { svg: TIKTOK_ICON, href: f.tiktok, label: 'TikTok' },
+        { svg: LINKEDIN_ICON, href: f.Linkedin, label: 'LinkedIn' },
     ];
 
     document.querySelectorAll('.footer-social').forEach(el => {
         el.innerHTML = socials.map(s =>
-            `<a href="${s.href}" target="_blank" rel="noopener" class="fsoc-link" title="${s.label}">${icon(s.icon)}</a>`
+            `<a href="${s.href}" target="_blank" rel="noopener" class="fsoc-link" title="${s.label}">${s.svg || icon(s.icon)}</a>`
         ).join('');
     });
 
@@ -449,6 +453,7 @@ function buildAbout(){
 }
 
 // ─── CONTACT PAGE ────────────────────────────────────────────
+// ─── CONTACT PAGE ────────────────────────────────────────────
 function buildContact(){
   const ct=C.contact, el=id=>document.getElementById(id);
   if(!el('contact-info')) return;
@@ -476,13 +481,23 @@ function buildContact(){
   const form=el('contact-form');
   const submitBtn=el('form-submit');
   if(form && submitBtn){
-    form.addEventListener('submit',async e=>{
+    form.addEventListener('submit', e=>{
       e.preventDefault();
-      submitBtn.disabled=true;submitBtn.textContent='Sending…';
-      await new Promise(r=>setTimeout(r,1200));
-      form.style.display='none';
-      const succ=el('form-success');
-      if(succ){succ.querySelector('.fsuccess-body').textContent=ct.success_message;succ.classList.add('show');}
+      const name    = document.getElementById('f-name').value.trim();
+      const email   = document.getElementById('f-email').value.trim();
+      const phone   = document.getElementById('f-phone').value.trim();
+      const event   = document.getElementById('form-event').value;
+      const message = document.getElementById('f-msg').value.trim();
+      const subject = encodeURIComponent(`Event Enquiry — ${event} — ${name}`);
+      const body    = encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nEvent Type: ${event}\n\nMessage:\n${message}`
+      );
+      window.location.href = `mailto:info@brighttoneevent.com?subject=${subject}&body=${body}`;
+      setTimeout(()=>{
+        form.style.display='none';
+        const succ=el('form-success');
+        if(succ){succ.querySelector('.fsuccess-body').textContent=ct.success_message;succ.classList.add('show');}
+      }, 500);
     });
   }
 }
