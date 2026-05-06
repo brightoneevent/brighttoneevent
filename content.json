@@ -117,7 +117,7 @@
         "items": [{
                 "id": "concerts",
                 "icon": "concert",
-                "image": "img/3.jpeg",
+                "image": "img/Concerts & festivals.jpeg",
                 "title": "Concerts & Festivals",
                 "body": "We deploy professional line-array systems, high-output subwoofers, stage monitors, and front-of-house mixing desks.",
                 "features": [
@@ -134,7 +134,7 @@
             {
                 "id": "weddings",
                 "icon": "wedding",
-                "image": "img/6.jpeg",
+                "image": "img/Wedding and celebrations.jpeg",
                 "title": "Weddings & Celebrations",
                 "body": "Elegant, unobtrusive systems that sound spectacular without dominating your décor.",
                 "features": [
@@ -151,7 +151,7 @@
             {
                 "id": "corporate",
                 "icon": "corporate",
-                "image": "img/5.jpeg",
+                "image": "img/Corporate events.jpeg",
                 "title": "Corporate Events",
                 "body": "Broadcast-grade reliability with lavalier mics, panel systems, and live-stream integration.",
                 "features": [
@@ -167,7 +167,7 @@
             {
                 "id": "corporate",
                 "icon": "Permanent AV Installations",
-                "image": "img/5.jpeg",
+                "image": "img/Permanent AV Installations.jpeg",
                 "title": "Permanent AV Installations",
                 "body": "",
                 "features": [
@@ -182,7 +182,7 @@
             {
                 "id": "church",
                 "icon": "Church & Worship Events",
-                "image": "img/5.jpeg",
+                "image": "img/Religious & worship events.jpeg",
                 "title": "Church & Worship Events",
                 "body": "",
                 "features": [
@@ -196,7 +196,7 @@
             {
                 "id": "roadshows",
                 "icon": "Roadshows & Brand Activations",
-                "image": "img/5.jpeg",
+                "image": "img/Wedding and celebrations.jpeg",
                 "title": "Roadshows & Brand Activations",
                 "body": "",
                 "features": [
@@ -210,7 +210,7 @@
             {
                 "id": "sports",
                 "icon": "Sports & Public Events",
-                "image": "img/5.jpeg",
+                "image": "img/4.jpeg",
                 "title": "Sports & Public Events",
                 "body": "",
                 "features": [
@@ -224,7 +224,7 @@
             {
                 "id": "exhibitions",
                 "icon": "Exhibitions & Trade Shows",
-                "image": "img/5.jpeg",
+                "image": "img/Exhibitions & trade shows.jpeg",
                 "title": "Exhibitions & Trade Shows",
                 "body": "",
                 "features": [
@@ -238,7 +238,7 @@
             {
                 "id": "private",
                 "icon": "Private Parties & VIP Experiences",
-                "image": "img/5.jpeg",
+                "image": "img/private event.png",
                 "title": "Private Parties & VIP Experiences",
                 "body": "",
                 "features": [
@@ -392,6 +392,8 @@
         "tagline": "Professional sound systems for every occasion.",
         "copyright": "© 2026 BrightTone Event. All rights reserved. Developed by Innovatoor.",
         "instagram": "https://www.instagram.com/brighttone_event/",
+        "tiktok": "https://www.tiktok.com/@brighttone_event",
+        "Linkedin": "https://www.instagram.com/brighttone_event/",
         "phone": "+250783458808"
 
 
