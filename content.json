@@ -65,21 +65,21 @@
         ],
         "service_cards": [{
                 "icon": "concert",
-                "image": "img/1.jpeg",
+                "image": "img/Concerts & festivals.jpeg",
                 "title": "Concerts & Festivals",
                 "body": "Line arrays, subwoofer stacks, monitor systems, and full stage management for live music at any scale.",
                 "href": "services.html#concerts"
             },
             {
                 "icon": "wedding",
-                "image": "img/2.jpeg",
+                "image": "img/wedding2.jpeg",
                 "title": "Weddings & Celebrations",
                 "body": "Crystal-clear ceremony audio, elegant background music, and powerful dance-floor systems for your perfect day.",
                 "href": "services.html#weddings"
             },
             {
                 "icon": "corporate",
-                "image": "img/5.jpeg",
+                "image": "img/Corporate events.jpeg",
                 "title": "Corporate Events",
                 "body": "Conference PA systems, lavalier microphones, presentation audio, and broadcast-grade reliability.",
                 "href": "services.html#corporate"
@@ -112,7 +112,7 @@
     },
     "services": {
         "hero": {
-            "label": "Our Services"
+
         },
         "items": [{
                 "id": "concerts",
@@ -134,7 +134,7 @@
             {
                 "id": "weddings",
                 "icon": "wedding",
-                "image": "img/Wedding and celebrations.jpeg",
+                "image": "img/wedding2.jpeg",
                 "title": "Weddings & Celebrations",
                 "body": "Elegant, unobtrusive systems that sound spectacular without dominating your décor.",
                 "features": [
@@ -196,7 +196,7 @@
             {
                 "id": "roadshows",
                 "icon": "Roadshows & Brand Activations",
-                "image": "img/Wedding and celebrations.jpeg",
+                "image": "img/Roadshows & Brand Activations.jpeg",
                 "title": "Roadshows & Brand Activations",
                 "body": "",
                 "features": [
@@ -277,52 +277,52 @@
 
     "portfolio": {
         "items": [{
-                "title": "Kigali Jazz Festival",
+                "title": "Ayute africa challenge rwanda grand finale",
                 "category": "Concerts",
-                "desc": "Full outdoor line-array for 3,000 attendees.",
-                "image": "img/1.jpeg",
-                "instagram": "https://www.instagram.com/p/DXvsiptMmXc/",
-                "year": "2024"
+                "desc": "Award ceremony with wireless mic system.",
+                "image": "img/event.jpeg",
+                "instagram": "https://www.instagram.com/reels/DXvsiptMmXc/",
+                "year": "2026"
             },
             {
                 "title": "Amira & David Wedding",
                 "category": "Weddings",
                 "desc": "Elegant ceremony with ambient sound zones.",
-                "image": "img/2.jpeg",
-                "instagram": "https://www.instagram.com/p/DKKBKo_MnhP/",
+                "image": "img/weddings.jpeg",
+                "instagram": "https://www.instagram.com/reels/DXvsiptMmXc/",
                 "year": "2024"
             },
             {
-                "title": "Rwanda Tech Summit",
+                "title": "Book Launch",
                 "category": "Corporate",
-                "desc": "800-delegate conference with live-stream integration.",
+                "desc": "Book launch at convetion center",
                 "image": "img/5.jpeg",
-                "instagram": "https://www.instagram.com/p/DUeYNMfCIfJ/",
-                "year": "2024"
+                "instagram": "https://www.instagram.com/reels/DUeYNMfCIfJ/",
+                "year": "2026"
             },
             {
-                "title": "Nyamata Music Night",
-                "category": "Concerts",
-                "desc": "Intimate open-air concert featuring local artists.",
-                "image": "img/3.jpeg",
-                "instagram": "https://www.instagram.com/p/DLqP-XrseHb/",
-                "year": "2023"
-            },
-            {
-                "title": "EcoBank Annual Gala",
-                "category": "Corporate",
-                "desc": "Award ceremony with wireless mic system.",
-                "image": "img/5.jpeg",
-                "instagram": "https://www.instagram.com/p/DH_NvOwsx-N/",
-                "year": "2023"
-            },
-            {
-                "title": "Sophie & Eric Wedding",
+                "title": "Intare Gisozi",
                 "category": "Weddings",
-                "desc": "Church ceremony to hotel ballroom — seamless transition.",
-                "image": "img/6.jpeg",
-                "instagram": "https://www.instagram.com/p/DFDnF6IsxHo/",
+                "desc": "Wedding celebration at intare gisozi.",
+                "image": "img/weddingIntare.jpeg",
+                "instagram": "https://www.instagram.com/reels/DMKV-2IMkR6/",
                 "year": "2023"
+            },
+            {
+                "title": "Global AI Summit on africa pre-events",
+                "category": "Corporate",
+                "desc": "Global AI Summit on africa pre-events",
+                "image": "img/corporate.jpeg",
+                "instagram": "https://www.instagram.com/p/DH_NvOwsx-N/",
+                "year": "2025"
+            },
+            {
+                "title": "End of year party",
+                "category": "Private party",
+                "desc": "End of year party at four points by sheraton",
+                "image": "img/privateparty.jpeg",
+                "instagram": "https://www.tiktok.com/@brighttone_event/video/7594586543382170892?_r=1&_t=ZS-96EBjCRjXT3",
+                "year": "2026"
             }
         ]
     },
