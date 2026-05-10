@@ -49,7 +49,13 @@ function buildNav() {
     ).join('') + `<a href="${C.nav.cta.href}" class="nav-cta">${C.nav.cta.label}</a>`;
 
     document.querySelectorAll('.nav-logo').forEach(el => {
-        el.innerHTML = `<div class="dot"></div><span class="name">${C.brand.name}<span class="accent"> ${C.brand.tagline}</span></span>`;
+        el.innerHTML = `
+        <img src="img/logo2.png" class="nav-logo-img" alt="Logo">
+        <span class="name">
+            ${C.brand.name}
+            <span class="accent"> ${C.brand.tagline}</span>
+        </span>
+    `;
     });
     document.querySelectorAll('.nav-links').forEach(el => el.innerHTML = linksHTML);
     document.querySelectorAll('.nav-drawer').forEach(el => el.innerHTML = drawerHTML);
