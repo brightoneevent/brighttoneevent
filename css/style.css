@@ -1797,3 +1797,14 @@ textarea {
     background-size: contain;
     background-repeat: no-repeat;
 }
+.innovatoor-link{
+    color:#00c8ff;
+    font-weight:700;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.innovatoor-link:hover{
+    color:#ffffff;
+    text-shadow:0 0 10px rgba(0,200,255,0.8);
+}
