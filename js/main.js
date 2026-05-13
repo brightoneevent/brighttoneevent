@@ -96,7 +96,7 @@ function buildFooter() {
         el.innerHTML = `${C.brand.name}<span class="ac"> ${C.brand.tagline}</span>`;
     });
     document.querySelectorAll('.footer-tagline').forEach(el => el.textContent = f.tagline);
-    document.querySelectorAll('.footer-copy').forEach(el => el.textContent = f.copyright);
+    document.querySelectorAll('.footer-copy').forEach(el => el.innerHTML = f.copyright);
 
     const TIKTOK_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>`;
     const LINKEDIN_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="4"/><line x1="8" y1="11" x2="8" y2="16"/><line x1="8" y1="8" x2="8" y2="8.01"/><path d="M12 16v-5m4 5v-3a2 2 0 0 0-4 0"/></svg>`;
